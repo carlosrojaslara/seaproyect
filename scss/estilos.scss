@@ -130,12 +130,30 @@
 	align-items: center;
 	justify-content: center;
 	.columna{
-
+		height: 200px;
 		margin-top: 40px;
 		display: flex;
 		flex-direction: row;
 		justify-content: space-evenly;
+	.image img{
+		width: 100%;
+	}
 }
+}
+
+.cuerpo {
+
+	.columna2{
+		justify-self: center;
+		margin-top: 40px;
+		height: 800px;
+
+ 	.image img{
+ 		max-width: 250px;
+ 	}
+
+
+	}
 }
 
 
