@@ -47,9 +47,11 @@
   color: #2a9d8f; }
 
 #formatImage {
-  background-image: url("../media/IMG_0395.jpg");
+  background-image: url("../media/estudioconser _ foto luciana demichelis-0209.jpg");
   height: 90vh;
-  background-size: 100%; }
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
 
 #header {
   height: 95px; }
@@ -120,6 +122,16 @@
   height: 800px; }
   .cuerpo .columna2 .image img {
     max-width: 250px; }
+
+.cuerpo2 {
+  background-image: url("../media/jael-vallee-uq7Ld3rNd1Y-unsplash.jpg");
+  background-repeat: no-repeat;
+  height: 900px;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
 
 #footer {
   display: flex;
