@@ -97,18 +97,25 @@
   margin-left: 20px; }
 
 .cuerpo {
-  height: 500px;
+  background-image: url("../media/caleb-george-aiwTKtIp39c-unsplash.jpg");
+  background-repeat: no-repeat;
+  height: 900px;
+  background-size: 100%;
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  margin-top: 300px; }
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .cuerpo .columna {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; }
 
 #footer {
   display: flex;
   flex-direction: row;
   background-color: black;
   justify-content: space-around;
-  margin-top: 100px;
   min-height: 82px; }
 
 #footer .logos-row {
