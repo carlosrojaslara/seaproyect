@@ -102,7 +102,7 @@
   background-image: url("../media/caleb-george-aiwTKtIp39c-unsplash.jpg");
   background-repeat: no-repeat;
   height: 900px;
-  background-size: 100%;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -127,7 +127,6 @@
   background-image: url("../media/jael-vallee-uq7Ld3rNd1Y-unsplash.jpg");
   background-repeat: no-repeat;
   height: 900px;
-  background-size: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -164,6 +163,20 @@
 
 .image img {
   max-width: 150px; }
+
+#contenedorForm h1 {
+  margin-bottom: 100px;
+  color: white; }
+
+#contenedorForm h2 {
+  color: white;
+  font-size: 15px; }
+
+#form {
+  margin-top: 100px;
+  width: 400px;
+  padding: 30px;
+  margin: auto; }
 
 @media only screen and (max-width: 700px) {
   #header {
