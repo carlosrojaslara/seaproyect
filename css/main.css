@@ -116,6 +116,11 @@
     .cuerpo .columna .image img {
       width: 100%; }
 
+.cuerpo img:hover {
+  cursor: pointer;
+  transform: translateY(-2px);
+  transition: all; }
+
 .cuerpo .columna2 {
   justify-self: center;
   margin-top: 40px;

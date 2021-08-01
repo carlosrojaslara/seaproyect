@@ -143,6 +143,11 @@
 	}
 }
 }
+.cuerpo img:hover{
+	cursor: pointer;
+	transform: translateY(-2px);
+	transition: all
+}
 
 .cuerpo {
 
